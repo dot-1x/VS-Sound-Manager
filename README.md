@@ -7,8 +7,8 @@
  **HOW TO PLAYSOUND?**
  1. Put your sound data to `::SOUND_DATA`
  2. either do  
-    ::PlaySound(SOUND_DATA.sound_key), remember the 1st arg is **MUST BE** an ***INSTANCE*** OF sounds class  
-    ::PlaySound(sounds("targetname", "path")) <- it'll set the rest keyvalue to default  
+    `::PlaySound(SOUND_DATA.sound_key)`, remember the 1st arg is **MUST BE** an ***INSTANCE*** OF sounds class  
+    `::PlaySound(sounds("targetname", "path"))` <- it'll set the rest keyvalue to default  
     or `OnOutput an_entity,RunScriptCode,PlaySound(SOUND_DATA.key),0,1`  
  for further, see example  
  3. all done  
