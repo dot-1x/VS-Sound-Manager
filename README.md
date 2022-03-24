@@ -1,6 +1,6 @@
 # VS-Sound-Manager
  WHAT IS THIS? A SOUND QUEUE MANAGER TO SAVE EDICT  
- **HOW DO I USE THIS?**
+ **HOW DO I USE THIS?**  
  create 1 point_template ( name it whatever you like ) & ambient generic ( name it whatever you like )  
  put the ambient generic inside the template you create and attach this script to the point template  
 
